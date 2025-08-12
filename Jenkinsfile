@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         TOMCAT_SERVER = "44.201.202.44"
-        TOMCAT_USER = "admin"
+        TOMCAT_USER = "ubuntu"
         NEXUS_URL = "13.218.82.244:8081"
         NEXUS_REPOSITORY = "maven-releases"
         NEXUS_CREDENTIAL_ID = "nexus_creds"

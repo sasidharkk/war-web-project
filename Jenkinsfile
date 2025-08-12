@@ -55,7 +55,6 @@ pipeline {
                         protocol: "http",
                         nexusUrl: "${NEXUS_URL}",
                         groupId: "koddas.web.war",
-                        artifactId: "wwp",
                         version: "${ART_VERSION}",
                         repository: "${NEXUS_REPOSITORY}",
                         credentialsId: "${NEXUS_CREDENTIAL_ID}",

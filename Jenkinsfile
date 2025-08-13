@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        TOMCAT_SERVER = "44.201.202.44"
+        TOMCAT_SERVER = "52.91.229.96"
         TOMCAT_USER = "ubuntu"
-        NEXUS_URL = "13.218.82.244:8081"
+        NEXUS_URL = "44.204.62.186:8081"
         NEXUS_REPOSITORY = "maven-releases"
         NEXUS_CREDENTIAL_ID = "nexus_creds"
         SSH_KEY_PATH = "/var/lib/jenkins/.ssh/jenkins_key"

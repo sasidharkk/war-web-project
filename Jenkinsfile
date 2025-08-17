@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        TOMCAT_SERVER = "98.82.0.85:8080"
+        TOMCAT_SERVER = "98.82.0.85"
         TOMCAT_USER = "ubuntu"
         NEXUS_URL = "18.212.60.95:8081"
         NEXUS_REPOSITORY = "maven-releases"
